@@ -26,7 +26,7 @@ def run():
         'class_name': class_name
     }
 
-    result = EngineeringTeam().crew.kickoff(inputs=inputs)
+    result = EngineeringTeam().crew().kickoff(inputs=inputs)
 
 if __name__ == "__main__":
     run()

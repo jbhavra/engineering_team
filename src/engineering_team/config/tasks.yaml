@@ -20,7 +20,7 @@ code_task:
     IMPORTANT: Output ONLY the raw Python code without any markdown formatting, code block delimiters, or backticks.
     The output should be valid Python code that can be directly saved to a file and executed.
   agent: backend_engineer
-  output_file: output/{module_name}.py
+  output_file: output/{module_name}
 
 frontend_task:
   description: >
@@ -47,4 +47,4 @@ test_task:
   agent: test_engineer
   context:
     - code_task
-  output_file: output/test_{module_name}.py
+  output_file: output/test_{module_name}
